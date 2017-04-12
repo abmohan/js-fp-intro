@@ -7,10 +7,10 @@ var stanleyCupVictories = [
   { city: 'Chicago', country: 'USA', wins: 5 }
 ];
 
-var winningAmericanCities = stanleyCupVictories.filter(function (datum) {
+var winningAmericanCities = stanleyCupVictories.filter(function (dataPoint) {
   // fill this in
 })
-.map(function (datum) {
+.map(function (dataPoint) {
   // fill this in, too
 });
 

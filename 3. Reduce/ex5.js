@@ -103,9 +103,11 @@ var stanleyCupVictories = [
   { year: 1914, city: 'TORONTO' }
 ];
 
-var citiesByWins = stanleyCupVictories.reduce(
-  function (cityMapping, city) {
-    
+var winsByCity = stanleyCupVictories.reduce(
+  function (mapping, dataPoint) {
+    // fill this in
   },
   {}
 );
+
+console.log('Wins by city:', winsByCity);

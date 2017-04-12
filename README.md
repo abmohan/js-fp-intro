@@ -10,7 +10,7 @@
 
   * object-oriented: groups code together with the state it modifies (e.g. all methods relating to a car's functionality are grouped with the properties of the car)
   * imperative: describe what the computer should do (like a recipe - first do this, then do that)
-  * declarative: describe what should happen, and let the computer figure out how to do it (e.g. SQL: `select * from orders where order.type in ("EQUITY", "FIXED_INCOME")`)
+  * declarative: describe what should happen, and let the compiler figure out how to do it (e.g. SQL: `select * from orders where order_type in ("EQUITY", "FIXED_INCOME")`)
 
 As you can see, these are hard to define, and not mutually exclusive.
 
@@ -76,10 +76,9 @@ Many programming languages are multi-paradigm and support functional programming
 * Moore's law is faltering
   * Prediction: the number of transistors on a chip will double every two years
   * Implication: computational speed can double every two years
-  * Quantum physics puts an upper bound on how close together two transistors can be
-  * We've run into this limit
+  * Physics puts a limit on these trends, and we're running up against this limit
 
-[Moore's Law](http://www.gotw.ca/images/CPU.png)
+![Moore's Law](http://www.gotw.ca/images/CPU.png)
 
   * Implication: the need to scale horizontally
     * Multi-core processors
@@ -123,6 +122,7 @@ Many programming languages are multi-paradigm and support functional programming
 
 ## Let's get started
 
-[1. Map](1. Map)
-[2. Filter](2. Filter)
-[3. Reduce](3. Reduce)
+1. [Map](1.%20Map)
+2. [Filter](2.%20Filter)
+3. [Reduce](3.%20Reduce)
+4. [Partial Functions](4.%20Partial%20Functions)

@@ -7,7 +7,7 @@ var stanleyCupVictories = [
   { city: 'Chicago', wins: 5 }
 ];
 
-var winningCities = stanleyCupVictories.map(function (datum) {
+var winningCities = stanleyCupVictories.map(function (dataPoint) {
   // fill this in
 });
 
