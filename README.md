@@ -79,6 +79,7 @@ Many programming languages are multi-paradigm and support functional programming
   * Physics puts a limit on these trends, and we're running up against this limit
 
 ![Moore's Law](http://www.gotw.ca/images/CPU.png)
+Ref: [Herb Sutter](http://www.gotw.ca)
 
   * Implication: the need to scale horizontally
     * Multi-core processors
