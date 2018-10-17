@@ -1,4 +1,4 @@
-var stanleyCupVictories = [
+const stanleyCupVictories = [
   { year: 2016, city: 'PITTSBURGH' },
   { year: 2015, city: 'CHICAGO' },
   { year: 2014, city: 'LOS ANGELES' },
@@ -103,7 +103,7 @@ var stanleyCupVictories = [
   { year: 1914, city: 'TORONTO' }
 ];
 
-var winsByCity = stanleyCupVictories.reduce(
+const winsByCity = stanleyCupVictories.reduce(
   function (mapping, dataPoint) {
     // fill this in
   },

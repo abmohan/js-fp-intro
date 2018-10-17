@@ -1,4 +1,4 @@
-var stanleyCupVictories = [
+const stanleyCupVictories = [
   { city: 'Toronto', wins: 13 },
   { city: 'Montreal', wins: 23 },
   { city: 'Detroit', wins: 11 },
@@ -7,7 +7,7 @@ var stanleyCupVictories = [
   { city: 'Chicago', wins: 5 }
 ];
 
-var winningCities = stanleyCupVictories.map(function (dataPoint) {
+const winningCities = stanleyCupVictories.map(function (dataPoint) {
   // fill this in
 });
 

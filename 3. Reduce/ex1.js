@@ -1,6 +1,6 @@
-var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-var sum = list.reduce(
+const sum = list.reduce(
   function (sum, currentNumber) {
     return sum + currentNumber;
   },

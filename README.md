@@ -8,7 +8,7 @@
 
 * Other examples of programming paradigms:
 
-  * object-oriented: groups code together with the state it modifies (e.g. all methods relating to a car's functionality are grouped with the properties of the car)
+  * object-oriented: code is grouped together with the state it modifies (e.g. all methods relating to a car's functionality are grouped with the properties of the car)
   * imperative: describe what the computer should do (like a recipe - first do this, then do that)
   * declarative: describe what should happen, and let the compiler figure out how to do it (e.g. SQL: `select * from orders where order_type in ("EQUITY", "FIXED_INCOME")`)
 
@@ -54,7 +54,7 @@ Many programming languages are multi-paradigm and support functional programming
   * preferences for expressions vs statements:
     * expressions evaluate to a value
     * i.e., have a non-null return type
-    * e.g. `var sortedList = sort(unsortedList);`
+    * e.g. `const sortedList = sort(unsortedList);`
   * statements do not evaluate to a value
     * Consider this line of code: `list.sort();`
     * it sorts the list and updates the state internally, but the result of the computation is not returned
