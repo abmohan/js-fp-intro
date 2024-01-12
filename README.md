@@ -92,9 +92,9 @@ Ref: [Herb Sutter](http://www.gotw.ca)
 
 2. Easier to read and debug
 
-> "Code is read more often than it is written."
+> ["Code is read more often than it is written."](https://www.oreilly.com/library/view/daniel-arbuckles-mastering/9781787283695/c01c1aa7-f298-4669-8641-8b9e8acca2fe.xhtml)
 
-> ~ Somewhat smart, somewhere
+> ~ Guido Van Rossum, Creator of Python
 
 * Functional programs are easier for human beings to read
   * no need to mentally keep track of state changes
